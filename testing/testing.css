@@ -1,0 +1,12 @@
+
+#content{
+	width: 30vem;
+	height : 30vem;
+}
+
+#logo{
+	background-image:url(images/logo.jpg);
+	width: 10em;
+	height:10em;
+	float: center;
+}

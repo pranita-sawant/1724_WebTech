@@ -1,0 +1,450 @@
+.fixed-logo {
+  position: absolute;
+  width: 105px;
+  height: 63px;
+  top: 25px;
+  left: 25px;
+  z-index: 999; }
+
+.landing-moonshot .parallax-window {
+  overflow: auto; }
+.landing-moonshot .section.moonshot {
+  position: relative;
+  background-position: center; }
+  .landing-moonshot .section.moonshot .h2 {
+    font-size: 56px; }
+    @media (max-width: 768px) {
+      .landing-moonshot .section.moonshot .h2 {
+        font-size: 3rem; } }
+  .landing-moonshot .section.moonshot .container .content .para {
+    max-width: 440px;
+    font-size: 22px;
+    padding-top: 20px; }
+    @media (max-width: 768px) {
+      .landing-moonshot .section.moonshot .container .content .para {
+        font-size: 1.6rem; } }
+  .landing-moonshot .section.moonshot .earth {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40%; }
+    @media (max-width: 768px) {
+      .landing-moonshot .section.moonshot .earth {
+        width: 50%; } }
+  .landing-moonshot .section.moonshot .moon {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    width: 40%; }
+    @media (max-width: 768px) {
+      .landing-moonshot .section.moonshot .moon {
+        width: 40%; } }
+.landing-moonshot .section.club {
+  position: relative; }
+  .landing-moonshot .section.club .section-bg {
+    display: block;
+    background-image: url("../images/landing-path-2.png"); }
+  .landing-moonshot .section.club .member-slider {
+    padding-top: 118px;
+    position: relative; }
+    .landing-moonshot .section.club .member-slider .owl-nav {
+      margin-top: 0; }
+      .landing-moonshot .section.club .member-slider .owl-nav [class*=owl-] {
+        padding: 0;
+        margin: 0;
+        text-indent: -9999px;
+        width: 42px;
+        height: 22px;
+        position: absolute;
+        top: 50%; }
+    .landing-moonshot .section.club .member-slider .owl-prev {
+      background: url("../images/left-arrow.svg") no-repeat center;
+      left: -5%; }
+    .landing-moonshot .section.club .member-slider .owl-next {
+      background: url("../images/right-arrow.svg") no-repeat center;
+      right: -5%; }
+    @media (max-width: 768px) {
+      .landing-moonshot .section.club .member-slider {
+        padding-top: 60px; } }
+    .landing-moonshot .section.club .member-slider .item {
+      text-align: center;
+      margin: 0 auto; }
+      .landing-moonshot .section.club .member-slider .item .meta-block {
+        padding: 0 10px; }
+      @media (max-width: 992px) {
+        .landing-moonshot .section.club .member-slider .item {
+          max-width: 200px; }
+          .landing-moonshot .section.club .member-slider .item .meta-block {
+            padding: 0px; } }
+      .landing-moonshot .section.club .member-slider .item .name {
+        font-family: "Nexa_Bold";
+        color: #fff;
+        font-size: 22px;
+        margin-top: 18px;
+        line-height: 1.4; }
+      .landing-moonshot .section.club .member-slider .item .designation {
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.8);
+        margin-top: 6px;
+        line-height: 1.5; }
+.landing-moonshot .section.live-cities {
+  background-position-y: 171px; }
+  .landing-moonshot .section.live-cities .section-bg {
+    display: block;
+    background-image: url("../images/landing-path-2.png");
+    background-position-x: left;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0; }
+  .landing-moonshot .section.live-cities .bg-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center; }
+    @media (max-width: 992px) {
+      .landing-moonshot .section.live-cities .bg-image {
+        background-size: contain; } }
+  .landing-moonshot .section.live-cities .h2 {
+    max-width: 890px; }
+  .landing-moonshot .section.live-cities .cities-wrapper {
+    clear: both;
+    text-align: left;
+    margin-left: 156px;
+    padding-top: 235px;
+    padding-bottom: 175px; }
+    @media (max-width: 992px) {
+      .landing-moonshot .section.live-cities .cities-wrapper {
+        margin-left: 0;
+        padding-top: 100px;
+        padding-bottom: 0; } }
+    @media (max-width: 768px) {
+      .landing-moonshot .section.live-cities .cities-wrapper {
+        margin-left: 0;
+        padding-top: 0;
+        padding-bottom: 0; } }
+  .landing-moonshot .section.live-cities ul li {
+    font-size: 36px;
+    margin-bottom: 32px;
+    color: #fff; }
+    @media (max-width: 768px) {
+      .landing-moonshot .section.live-cities ul li {
+        font-size: 2.6rem; } }
+    .landing-moonshot .section.live-cities ul li span {
+      font-size: 24px;
+      color: rgba(255, 255, 255, 0.8);
+      font-family: "Avenir-Light";
+      font-weight: 300;
+      padding-left: 14px; }
+      @media (max-width: 768px) {
+        .landing-moonshot .section.live-cities ul li span {
+          font-size: 1.6rem; } }
+    .landing-moonshot .section.live-cities ul li .icon {
+      width: 10px;
+      height: 10px;
+      position: relative;
+      top: -6px; }
+.landing-moonshot .section.space-exploration .exploration {
+  text-align: left;
+  clear: both;
+  padding-top: 85px; }
+  .landing-moonshot .section.space-exploration .exploration:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0; }
+  .landing-moonshot .section.space-exploration .exploration .item {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative; }
+    .landing-moonshot .section.space-exploration .exploration .item .heading {
+      font-size: 24px;
+      font-family: "Nexa_Bold";
+      color: rgba(255, 255, 255, 0.9);
+      padding: 23px 32px;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      opacity: 1;
+      z-index: 2; }
+    .landing-moonshot .section.space-exploration .exploration .item .caption {
+      width: 100%;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      color: #fff;
+      padding: 28px 32px;
+      opacity: 0;
+      -webkit-transition: opacity .35s ease-in-out;
+      transition: opacity .35s ease-in-out; }
+      .landing-moonshot .section.space-exploration .exploration .item .caption .title {
+        font-size: 22px;
+        font-family: "Nexa_Bold";
+        padding-bottom: 6px; }
+      .landing-moonshot .section.space-exploration .exploration .item .caption .date {
+        font-size: 16px;
+        font-family: "Avenir-Medium";
+        color: rgba(255, 255, 255, 0.8);
+        padding-bottom: 5px; }
+      .landing-moonshot .section.space-exploration .exploration .item .caption .desc {
+        font-size: 20px; }
+    .landing-moonshot .section.space-exploration .exploration .item:hover:before {
+      opacity: 1; }
+    .landing-moonshot .section.space-exploration .exploration .item:hover:after {
+      opacity: 0; }
+    .landing-moonshot .section.space-exploration .exploration .item:hover .caption {
+      opacity: 1; }
+    .landing-moonshot .section.space-exploration .exploration .item:hover .heading {
+      opacity: 0; }
+    @media (max-width: 768px) {
+      .landing-moonshot .section.space-exploration .exploration .item:hover:before {
+        opacity: 0; }
+      .landing-moonshot .section.space-exploration .exploration .item:hover:after {
+        opacity: 1; }
+      .landing-moonshot .section.space-exploration .exploration .item:hover .caption {
+        opacity: 0; }
+      .landing-moonshot .section.space-exploration .exploration .item:hover .heading {
+        opacity: 1; } }
+    .landing-moonshot .section.space-exploration .exploration .item:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      background-color: rgba(0, 85, 127, 0.75);
+      -webkit-transition: opacity .35s ease-in-out;
+      transition: opacity .35s ease-in-out; }
+    .landing-moonshot .section.space-exploration .exploration .item:after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 175px;
+      background-image: linear-gradient(to bottom, rgba(31, 58, 78, 0), rgba(0, 0, 0, 0.81));
+      opacity: 1; }
+    .landing-moonshot .section.space-exploration .exploration .item:last-child {
+      margin-bottom: 0; }
+    .landing-moonshot .section.space-exploration .exploration .item.mr {
+      margin-right: 10px; }
+    .landing-moonshot .section.space-exploration .exploration .item img {
+      width: 100%;
+      height: auto; }
+    .landing-moonshot .section.space-exploration .exploration .item.two-third {
+      width: 66.66%;
+      width: -webkit-calc(66.66% - 10px);
+      width: -moz-calc(66.66% - 10px);
+      width: calc(66.66% - 10px); }
+    .landing-moonshot .section.space-exploration .exploration .item.one-third {
+      width: 33.33%; }
+    .landing-moonshot .section.space-exploration .exploration .item.half {
+      width: 50%;
+      width: -webkit-calc(50% - 5px);
+      width: -moz-calc(50% - 5px);
+      width: calc(50% - 5px);
+      margin-left: 5px; }
+      .landing-moonshot .section.space-exploration .exploration .item.half.mr {
+        margin-right: 5px;
+        margin-left: 0; }
+    @media (max-width: 768px) {
+      .landing-moonshot .section.space-exploration .exploration .item {
+        width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important; } }
+.landing-moonshot .section.memorabilia ul.prizes {
+  padding-top: 86px;
+  padding-bottom: 50px; }
+  .landing-moonshot .section.memorabilia ul.prizes li {
+    width: 25%;
+    width: -webkit-calc(25% - 10px);
+    width: -moz-calc(25% - 10px);
+    width: calc(25% - 10px);
+    margin-right: 10px;
+    float: left; }
+    @media (max-width: 768px) {
+      .landing-moonshot .section.memorabilia ul.prizes li {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px; }
+        .landing-moonshot .section.memorabilia ul.prizes li:last-child {
+          margin-bottom: 0; } }
+    .landing-moonshot .section.memorabilia ul.prizes li:last-child {
+      margin-right: 0; }
+    .landing-moonshot .section.memorabilia ul.prizes li .name {
+      font-size: 22px;
+      font-family: "Nexa_Bold";
+      padding-top: 12px;
+      color: #fff; }
+.landing-moonshot .section.memorabilia .container .content .para {
+  padding-top: 51px; }
+.landing-moonshot .section.request-block {
+  text-align: center;
+  padding-bottom: 150px; }
+  @media (max-width: 768px) {
+    .landing-moonshot .section.request-block {
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-bottom: 0px; } }
+  .landing-moonshot .section.request-block .h2 {
+    font-size: 40px;
+    display: inline-block;
+    float: none;
+    margin-bottom: 46px; }
+    @media (max-width: 768px) {
+      .landing-moonshot .section.request-block .h2 {
+        font-size: 3rem; } }
+    @media (max-width: 480px) {
+      .landing-moonshot .section.request-block .h2 {
+        font-size: 2.4rem; } }
+    .landing-moonshot .section.request-block .h2 .before-icon {
+      top: -27px; }
+      @media (max-width: 768px) {
+        .landing-moonshot .section.request-block .h2 .before-icon {
+          top: -20px; } }
+      @media (max-width: 480px) {
+        .landing-moonshot .section.request-block .h2 .before-icon {
+          top: -16px; } }
+  .landing-moonshot .section.request-block .request-form-wrapper {
+    max-width: 680px;
+    margin: 0 auto;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-image-source: radial-gradient(circle at 50% 100%, rgba(0, 205, 241, 0), rgba(0, 191, 235, 0.05) 47%, rgba(0, 116, 223, 0.61));
+    border-image-slice: 1;
+    padding: 20px 20px 5px; }
+    @media (max-width: 480px) {
+      .landing-moonshot .section.request-block .request-form-wrapper {
+        padding: 0;
+        border: 0; } }
+  .landing-moonshot .section.request-block .request-form {
+    border-radius: 2px;
+    background-color: rgba(6, 27, 41, 0.5);
+    border: solid 1px rgba(0, 159, 223, 0.2);
+    margin: 0 auto;
+    max-height: 438px;
+    width: 100%; }
+    .landing-moonshot .section.request-block .request-form form {
+      max-width: 420px;
+      margin: 0 auto; }
+    .landing-moonshot .section.request-block .request-form div.mce_inline_error {
+      display: none !important; }
+  .landing-moonshot .section.request-block a.large {
+    display: block;
+    float: none;
+    width: auto;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+    bottom: -46px;
+    z-index: 3; }
+    @media (max-width: 768px) {
+      .landing-moonshot .section.request-block a.large {
+        bottom: -53px; } }
+    @media (max-width: 480px) {
+      .landing-moonshot .section.request-block a.large {
+        bottom: -63px; } }
+    .landing-moonshot .section.request-block a.large .icon {
+      position: absolute;
+      top: 0;
+      right: -10px;
+      bottom: 0;
+      width: 65px;
+      -webkit-transform: skew(-20deg);
+      -moz-transform: skew(-20deg);
+      -ms-transform: skew(-20deg);
+      transform: skew(-20deg);
+      background: #0c87c6;
+      -spec-transform: skew(-20deg); }
+      .landing-moonshot .section.request-block a.large .icon svg {
+        width: 22px;
+        height: 22px; }
+  .landing-moonshot .section.request-block #mc_embed_signup_scroll {
+    position: relative; }
+  .landing-moonshot .section.request-block #mc_embed_signup input {
+    border-radius: 2px;
+    border: solid 1px #009fdf;
+    text-indent: 20px; }
+  .landing-moonshot .section.request-block #mc_embed_signup form {
+    padding: 64px 20px 74px;
+    text-align: center; }
+  .landing-moonshot .section.request-block #mc_embed_signup .mc-field-group {
+    width: 100%;
+    padding-bottom: 0; }
+  .landing-moonshot .section.request-block #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
+    border: 1px solid rgba(245, 34, 52, 0.1); }
+  .landing-moonshot .section.request-block #mc-embedded-subscribe {
+    display: none; }
+  .landing-moonshot .section.request-block #mce-responses {
+    position: absolute;
+    width: 100% !important;
+    top: auto !important;
+    bottom: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important; }
+  .landing-moonshot .section.request-block #mc_embed_signup div.response {
+    width: 100% !important;
+    top: auto !important;
+    bottom: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #fff;
+    font-size: 14px; }
+    .landing-moonshot .section.request-block #mc_embed_signup div.response a {
+      color: #009FDC; }
+  .landing-moonshot .section.request-block #mc_embed_signup #mce-success-response {
+    color: #fff;
+    font-size: 16px;
+    padding-bottom: 20px !important; }
+  .landing-moonshot .section.request-block .socials {
+    margin-top: 36px; }
+.landing-moonshot .section .h2 {
+  font-family: "Nexa_Light";
+  font-size: 46px;
+  font-weight: normal;
+  max-width: 680px;
+  margin-bottom: 0; }
+  @media (max-width: 768px) {
+    .landing-moonshot .section .h2 {
+      font-size: 3rem; } }
+  .landing-moonshot .section .h2 span.blue {
+    color: #009fdf; }
+  .landing-moonshot .section .h2 span.text {
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.6); }
+.landing-moonshot .section .container .content .para {
+  font-size: 20px;
+  line-height: 1.4;
+  padding-top: 38px;
+  font-family: "Avenir-Light";
+  font-weight: 300;
+  margin-bottom: 0; }
+  @media (max-width: 768px) {
+    .landing-moonshot .section .container .content .para {
+      font-size: 1.6rem; } }
+.landing-moonshot .section .button-wrapper {
+  margin-top: 68px; }
+  .landing-moonshot .section .button-wrapper .cta {
+    display: inline-block;
+    width: auto;
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 16px 34px; }
+  @media (max-width: 768px) {
+    .landing-moonshot .section .button-wrapper {
+      margin-top: 30px; } }
+.landing-moonshot .section .h2 .before-icon {
+  top: -38px; }
+  @media (max-width: 768px) {
+    .landing-moonshot .section .h2 .before-icon {
+      top: -20px; } }
+
+/*# sourceMappingURL=landing.css.map */
