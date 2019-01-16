@@ -1,12 +1,29 @@
 /*@media only screen and (min-width:600px){*/
-	body{	
-		background-image:url(images/DestinationMoon.jpg);
+	body{
 		margin:0px;
 	}
 	
+	/*h4{
+		padding:0px;
+		margin:0px;
+	}*/
+	.content{	
+		background-image:url(images/DestinationMoon.jpg);
+		background-repeat:no-repeat;
+		background-position:center;
+		height:600px;
+		width:100%;
+		opacity: 1;
+	}
+	
+	.container{
+		padding: 10px;
+		margin: 5px;
+	}
+	
 	.header{
-		background-color:rgba(0, 0, 0, .6);
-		height:50px;
+		background-color: rgba(0, 0, 0, 0.68);
+		height: auto;
 		width:100%;
 	}
 	
@@ -15,30 +32,26 @@
 		height:50px;
 		display:flex;
 		justify-content: space-between;
-		padding: 10px;
-	}
-	
-	li{
-		text-transform: uppercase;
-		float:right;
-		font-family:san-sarif;
-	}
-	
-	.nav items{
-		display:flex;
-		justify-content: right;
-		padding: 3px;
-	}
-	
-	.nav-items{
 		padding: 5px;
+	}
+	
+	.items{
+		display:flex;
+		float: right;
+		padding: 0px;
 		margin-right:0px;
 	}
 	
+	.nav-items{
+		padding: 0px;
+		margin:0px;
+	}
+	
 	.logo{
-		height:100%;
-		padding:2px;
-		margin : 40 50px;
+		height: 40px;
+		margin-top: 10px;
+		margin-left: 30px;
+		float:left;
 	}
 	
 	a{
@@ -47,16 +60,47 @@
 	.item-deco{
 		text-decoration:none;
 	}
+	ul{
+		float:right;
+	}
 	
 	li{
 		text-decoration:none;
-		float:left;
+		text-transform: uppercase;
+		font-family:san-sarif;
+		float:right;
 		display: flex;
-		padding: 5px;
+		padding-right: 3px;
+		margin:10px;
 		color:white;
 	}
 	
 	.col{
 		column-width:50%;
+	}
+	
+	/*.content{
+		padding:0px;
+		margin-left:50px;
+	}*/
+	
+	.slogan{
+		position:relative;
+		text-align:justify;
+		font-size:3rem;
+		font-weight:bold;
+		font-family: arial;
+		padding:1.5em;
+		margin-bottom:30px;
+		line-height:0;
+	}
+	
+	.title{
+		font-family: arial;
+		text-align:justify;
+		font-size:2.5rem;
+		padding-top:0px;
+		margin-left: 50px;
+		margin-top: -40px;;
 	}
 /*}*/
