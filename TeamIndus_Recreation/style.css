@@ -1,17 +1,15 @@
 /*@media only screen and (min-width:600px){*/
 	body{
 		margin:0px;
+		padding:0px;
 	}
 	
-	/*h4{
-		padding:0px;
-		margin:0px;
-	}*/
+	
 	.content{	
 		background-image:url(images/DestinationMoon.jpg);
 		background-repeat:no-repeat;
 		background-position:center;
-		height:600px;
+		height:750px;
 		width:100%;
 		opacity: 1;
 	}
@@ -22,17 +20,22 @@
 	}
 	
 	.header{
-		background-color: rgba(0, 0, 0, 0.68);
+		/*background-color: rgba(0, 0, 0, 0.68);*/
 		height: auto;
 		width:100%;
 	}
 	
 	.nav{
+		background-color: rgba(0, 0, 0, 0.68);
+		position: fixed;
+		float: left;
 		width:100%;
+		margin: -4.5px;
+		margin-bottom: auto;
 		height:50px;
 		display:flex;
 		justify-content: space-between;
-		padding: 5px;
+		padding: 3px;
 	}
 	
 	.items{
@@ -48,31 +51,35 @@
 	}
 	
 	.logo{
-		height: 40px;
-		margin-top: 10px;
-		margin-left: 30px;
+		height: 3em;
+		margin-top: 1em;
+		margin-left: 40px;
 		float:left;
 	}
 	
 	a{
-		color: white;
+		color: #ffffffc4;
+	}
+
+	:hover a{
+
 	}
 	.item-deco{
 		text-decoration:none;
 	}
 	ul{
-		float:right;
+		margin-right: -40em;
 	}
 	
 	li{
 		text-decoration:none;
 		text-transform: uppercase;
-		font-family:san-sarif;
-		float:right;
+		font-family:Arial, Helvetica, sans-serif;
+		float:left;
 		display: flex;
 		padding-right: 3px;
 		margin:10px;
-		color:white;
+		color:#aaa;
 	}
 	
 	.col{
@@ -89,18 +96,51 @@
 		text-align:justify;
 		font-size:3rem;
 		font-weight:bold;
-		font-family: arial;
+		font-family: Arial, Helvetica, sans-serif;
 		padding:1.5em;
 		margin-bottom:30px;
+		margin-top: 2.5em;
+		margin-left:1.5em;
 		line-height:0;
+		color:white;
 	}
 	
 	.title{
-		font-family: arial;
+		font-family: Arial, Helvetica, sans-serif;
 		text-align:justify;
 		font-size:2.5rem;
 		padding-top:0px;
-		margin-left: 50px;
-		margin-top: -40px;;
+		margin-left: 3.8em;
+		margin-top: -1em;
+		color:white;
 	}
+
+	.plus-top{
+		color: #009fdf;
+		margin-right:0em;
+		margin-bottom:-0.5em;
+		margin-inline-start:-0.5em;
+	}
+
+	.plus-bottom{
+		color: #009fdf;
+		margin-top:-0.4em;
+		margin-inline-start:6.7em;
+	}
+
+	div .explore-mission {
+			box-sizing: border-box;
+			width: max-content;
+			height: 4em;
+			padding: 20px;  
+			border: 2px solid #009fdf;
+			font-size: 2ex;
+			margin-top: -1em;
+			margin-left:11em;
+			color:white;
+			text-transform: uppercase;
+			font-family: Arial, Helvetica, sans-serif;
+
+		  }
+
 /*}*/
