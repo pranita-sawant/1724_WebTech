@@ -1,0 +1,44 @@
+body{
+	background:grey;
+}
+
+.StudDetail{	
+	display: flex;
+    flex-direction: row;
+}
+
+#form1 fieldset{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#form1 fieldset label{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.radios{
+    display: inline;
+}
+
+.buttonStyle{
+	width: 6em;
+	height: auto;
+	margin-top: 3em;
+	margin-left: 3em;
+}
+#details{
+	width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+	border: 1px solid #fff;
+	margin-top: 0.5em;
+}
+
+th, td {
+    text-align: center;
+    padding: 16px;
+  }

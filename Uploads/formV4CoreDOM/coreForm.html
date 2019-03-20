@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Form</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		
+		<link rel="stylesheet" href="style.css" >
+	</head>
+
+<body>
+	<div class="StudDetail">
+		<form name="form1" id="form1">
+		<h3>Student Details</h3>
+			<div class="formalign">
+			<label>Roll No</label>
+			<input type="text" id="rollno" name="rollno" required>
+			</div>
+			
+			<div class="formalign">
+			<label>Name</label>
+			<input type="text" name="studname" id="studname" required>
+			</div>
+			
+			<div class="formalign">
+			<label>Subjects</label>
+				<select name="subjects" id="subjects" required multiple>
+					<option value="WebTech">Web Technology</option>
+					<option value="IoT">IoT</option>
+					<option value="SE">SE</option>
+					<option value="C">C</option>
+					<option value="Java">Java</option>
+					<option value="Graphics">Graphics</option>
+					<option value="DS">DS</option>
+				</select>
+			</div>
+			
+			<div class="formalign">
+			<label>Year</label>
+				<input type="radio" name="batch" value="2016" checked>2016
+				<input type="radio" name="batch" value="2017">2017
+				<input type="radio" name="batch" value="2018">2018
+			</div>
+			
+			<input type="submit" name="submitForm" value="Submit" onclick="submitData(event)">
+		</form>
+	</div>
+	
+	<p id="demo"></p>
+	<div class="data">
+		<table id="details">
+		<thead>
+			<th>RollNo</th>
+			<th>Name</th>
+			<th>Subjects</th>
+			<th>Year</th>
+		</thead>
+		<tbody>
+			<tr>
+				<td><span></td>
+		</tbody>
+		</table>
+	</div>
+	
+	<script>
+		document.getElementsByTagName("h3")[0].innerHTML;
+		txt = xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+		
+		function submitData(){
+			event.preventDefault();
+			var table = document.getElementById("details")
+			
+			var x=document.getElementById("form1");
+			var roll=form1["rollno"].value;
+			var name =form1["studname"].value;
+			var year = form1["batch"].value;
+			
+			var row=table.insertRow(-1);
+			var cell1 = row.insertCell(0);
+			var cell2 = row.insertCell(1);
+			var cell3 = row.insertCell(2);
+			var cell4 =row.insertCell(3);
+			
+			cell1.innerHTML=roll;
+			cell2.innerHTML=name;
+			cell3.innerHTML=getSelectValues(document.getElementById("subjects"));
+			cell4.innerHTML=year;
+			
+			function getSelectValues(select) {
+				var selectedValues = [];
+				var options = select && select.options;
+				var opt;
+				var length=options.length;
+				for (var i=0; i<length; i++) {
+					opt = options[i];
+
+					if (opt.selected) {
+						selectedValues.push(opt.value);
+					}
+				}
+			  return selectedValues;
+			}			
+						
+			}
+			
+	</script>
+</body>
+</html>

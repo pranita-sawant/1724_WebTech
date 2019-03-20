@@ -1,0 +1,39 @@
+div {
+  width: 100px;
+  height: 100px;
+  position: relative;
+ 
+
+}
+img {
+    position:relative ;
+    left: -500px;
+    top: 0px;
+    animation: displayImg 4s right;
+  }
+
+  #b:hover img{
+      left:100%;
+      right:0;
+      transition: all 0.5s linear;
+
+  }
+
+/*.img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}*/
+
+/* Standard syntax */
+@keyframes displayImg {
+ /* 0%   {:red; left:200px; top:200px; transform:rotate(360deg) rotate3d(0.5,0.5,0.5,0deg); }
+  25%  {background-color:yellow; left:200px; top:200px; transform:rotate(360deg) rotate3d(0.5,0.5,0.5,60deg)*/
+from {left:-500px;}
+to{left:0px;}
+}
+
+a:hover #b{
+    position: relative;
+    left:500px;
+}

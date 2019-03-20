@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Form</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="./dist/css/style.css" >
+	</head>
+
+<body>
+	<div class="StudDetail">
+		<form name="form1" id="form1">
+		<fieldset>
+		<legend>Student Details</legend>
+			<label for="rollno">Roll No</label>
+			<input type="text" id="rollno" name="rollno" required>
+			
+			<label for="name">Name</label>
+			<input type="text" name="studname" id="studname" required>
+			
+			<label for="Subjects">Subjects</label>
+				<select name="subjects" id="subjects" multiple>
+					<option value="WebTech">Web Technology</option>
+					<option value="IoT">IoT</option>
+					<option value="SE">SE</option>
+					<option value="C">C</option>
+					<option value="Java">Java</option>
+					<option value="Graphics">Graphics</option>
+					<option value="DS">DS</option>
+				</select>
+			
+			<label for="semester">Year</label>
+			<div class="radios">
+				<input type="radio" name="batch" value="2016">2016
+				<input type="radio" name="batch" value="2017">2017
+				<input type="radio" name="batch" value="2018">2018
+			</div>
+			
+			<input class="buttonStyle" type="submit" name="submitForm" value="Submit">
+			</fieldset>
+		</form>
+	
+	<p id="demo"></p>
+		<table id="details">
+		<thead>
+			<th>RollNo</th>
+			<th>Name</th>
+			<th>Subjects</th>
+			<th>Year</th>
+		</thead>
+		<tbody id="table_body">
+			<!--<tr>
+				<td><span></td>-->
+		</tbody>
+		</table>
+	</div>
+</div>
+	<script src="./dist/js/main.js"></script>
+</body>
+</html>

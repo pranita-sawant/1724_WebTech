@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Form</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		
+		<link rel="stylesheet" href="style.css" >
+	</head>
+
+<body>
+    <div class="StudDetail">
+        <form name="form1" id="form1" onsubmit="newWin(event)">
+            <h3>Student Details</h3>
+                <div class="formalign">
+                    <label>Roll No</label>
+                    <input type="text" id="rollno" name="rollno" required>
+                </div>
+                    
+                <div class="formalign">
+                    <label>Name</label>
+                    <input type="text" name="studname" id="studname" required>
+                </div>
+                    
+                <div class="formalign">
+                    <label>Subjects</label>
+                        <select name="subjects" id="subjects" required multiple>
+                            <option value="WebTech">Web Technology</option>
+                            <option value="IoT">IoT</option>
+                            <option value="SE">SE</option>
+                            <option value="C">C</option>
+                            <option value="Java">Java</option>
+                            <option value="Graphics">Graphics</option>
+                            <option value="DS">DS</option>
+                        </select>
+                </div>
+                    
+                <div class="formalign">
+                    <label>Year</label>
+                        <input type="radio" name="batch" value="2016" checked>2016
+                        <input type="radio" name="batch" value="2017">2017
+                        <input type="radio" name="batch" value="2018">2018
+                </div>
+                    
+                    <input type="submit" name="submitForm" value="Submit">
+        </form>
+    </div>
+    <div id="demo"></div>
+
+
+    <script>
+        var myWin;
+        function newWin(event){
+            event.preventDefault();
+            if(!myWin){
+                myWin = window.open("./table.html");   //to open child class
+            }else{
+                myWin.retriveData();
+            }
+        }
+    </script>
+</body>
+</html>
+

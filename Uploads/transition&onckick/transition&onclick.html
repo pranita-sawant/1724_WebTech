@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div id="b">
+    <h1 id="a">Hover Here</h1>
+    <img class="img" src="images/logo.jpg"/>
+</div>
+
+
+
+<!--<div style="width: 400px; height: 400px; border: 1px solid black;" onclick="selectleftButton()" contextmenu="selectrightclick();event.preventdefault();"></div>-->
+<!-- OR -->
+<div style="width: 400px; height: 400px; border: 1px solid black;" onclick="selectleftButton()" contextmenu="selectrightclick()"></div>
+<script>
+    function selectleftButton(event) {
+        alert("You pressed left button");
+    }
+
+    function selectrightclick(event){
+        event.preventdefault();
+        alert("you pressed right button");
+    }
+
+    
+</script>
+</body>
+</html>

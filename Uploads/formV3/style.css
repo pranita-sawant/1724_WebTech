@@ -1,0 +1,50 @@
+body{
+	background:grey;
+}
+
+form{
+	display: block;
+}
+
+.StudDetail{
+	margin:3em;	
+	border-style: 1px solid black;
+	float:left;
+}
+
+
+.StudDetail form{
+	padding: 1em;
+}
+
+
+.StudDetail label{
+	float:left;
+}
+
+.StudDetail input{
+	width:5em;
+	padding: 0em;
+	margin:1em;
+}
+
+.StudDetail formalign{
+	display: block;
+	margin: 1em;
+}
+
+.radioInput{
+	margin:0px;
+}
+
+.data{
+	float:right;
+}
+
+.data table{
+	padding:2em;
+}
+.data th{
+	padding:2em;
+}
+

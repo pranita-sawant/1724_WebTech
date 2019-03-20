@@ -1,0 +1,30 @@
+.rot{
+    background-color: aqua;
+    width:5em;
+    height:5em;
+    transform: rotate(4deg);
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    position: relative;
+    border-radius: 50%;
+    animation: moveimg 5s infinite;
+    transform: translateY(0px,400px);
+}
+
+@keyframes moveimg{
+    from{top: 0vh; left:0vh; transform: rotate3D(0,0,0,0); width: 200px;}
+    to{top: 100vh; left:100vh; transform:rotate3D(30,0,60,0); width: 2px;}
+}
+
+@keyframes imgrot{
+    0%{
+        transform:rotateX(60);
+    }
+    100%{
+        transform: rotateX(60);
+    }
+}

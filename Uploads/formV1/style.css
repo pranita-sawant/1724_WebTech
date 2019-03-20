@@ -1,0 +1,31 @@
+body{
+	background:grey;
+}
+
+.StudDetail{
+	margin:3em;	
+	border-style: 1px solid black;
+	float:left;
+}
+
+
+.StudDetail form{
+	padding: 1em;
+}
+
+.StudDetail formalign{
+	margin: 1em;
+}
+
+.data{
+	float:right;
+}
+
+
+.data table{
+	padding:2em;
+}
+.data th{
+	padding:2em;
+}
+
